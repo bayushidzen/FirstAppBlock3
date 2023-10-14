@@ -7,10 +7,8 @@
             Console.WriteLine("Калькулятор v 0.01");
             Console.Write("Введите первое число: ");
             int.TryParse(Console.ReadLine(), out int number1);
-            //int number1 = int.TryParse(Console.ReadLine(), out number1);
             Console.Write("Введите второе число: ");
             int.TryParse(Console.ReadLine(), out int number2);
-            //int number2 = int.Parse(Console.ReadLine());
             Console.Write("Введите операнд: ");
             string operation = Console.ReadLine();
             Test(operation);
