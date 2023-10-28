@@ -99,5 +99,13 @@
                 return false;
             }
         }
+        public enum Gender
+        {
+            male, female
+        }
+        public enum FamilyStatus
+        {
+            mother, father, brother, sister, son, daughter, grandmother, grandfather, wife, husband, single
+        }
     }
 }
